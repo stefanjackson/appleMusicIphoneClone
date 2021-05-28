@@ -10,6 +10,10 @@ a{
 	padding: 0 !important;
 }
 
+.navbar-toggler {
+	border: none;
+}
+
 nav.navbar {
 	max-height: 100px;
 	background-color: rgb(52, 58, 64, 0.6);
@@ -162,4 +166,20 @@ h3 {
 
 .carouselText5 {
 	background-color: rgb(255,159,95);
+}
+
+.bgContainerImg6 {
+	background-image: url('assets/russ.jpg');
+}
+
+.carouselText6 {
+	background-color:	rgb(217, 181, 28);
+}
+
+.bgContainerImg7 {
+	background-image: url('assets/childrenOfInternet.jpg');
+}
+
+.carouselText7 {
+	background-color:	rgb(108, 108, 108);
 }
