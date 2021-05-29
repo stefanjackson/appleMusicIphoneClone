@@ -2,12 +2,16 @@
 
 body {
 	background-color: black;
+}
+
+.flex-nowrap {
 	overflow: hidden;
 }
 
 a{
 	margin: 0 !important;
 	padding: 0 !important;
+	text-decoration: none;
 }
 
 .navbar-toggler {
@@ -55,16 +59,21 @@ h3 {
 }
 
 .col {
-	margin-right: 20px;
+	margin-right: 15px;
 }
 
 .flex-nowrap {
 	overflow-x: scroll;
 }
 
-.flex-nowrap div {
+#topPicksCarousel div {
 	width: 200px !important;
 	height: 268px;
+}
+
+#recentlyPlayedDivs div {
+	width: 144px;
+	height: 195px;
 }
 
 
@@ -73,6 +82,7 @@ h3 {
 
 /* width */
 ::-webkit-scrollbar {
+	display: none;
   width: 10px;
   height: 4px;
 }
@@ -81,7 +91,7 @@ h3 {
 /* Track */
 ::-webkit-scrollbar-track {
   background: rgb(255, 255, 255, 0.2);
-  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.25); 
     border-radius: 10px;
 }
 
@@ -106,16 +116,21 @@ h3 {
 }
 
 .carouselText {
-	width: 100%;
+	width: 100% !important;
 	margin: 0;
 	padding: 5px !important;
 	color: white;
 	text-align: center;
+	font-weight: bold;
 	position: absolute;
 	bottom: 0;
 	font-size: 0.9em;
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
+}
+
+.carouselText span {
+	font-weight: normal;
 }
 
 .bgContainerImg {
@@ -126,7 +141,7 @@ h3 {
 	border-top-right-radius: 10px;
 }
 
-/*CUSTOM STYLING FOR INDIVIDUAL COLUMNS IN CAROUSEL */
+/*CUSTOM STYLING FOR INDIVIDUAL COLUMNS IN TOP PICKS CAROUSEL */
 
 .bgContainerImg1 {
 	background-image: url('./assets/nightcap.jpg');
@@ -183,3 +198,114 @@ h3 {
 .carouselText7 {
 	background-color:	rgb(108, 108, 108);
 }
+
+
+/*START OF RECENTLY PLAYED STYLING */
+/*Recently played Title div work around */
+
+#titleDivs {
+	width: 100%;
+	display: flex !important;
+	flex-direction: row !important;
+	justify-content: space-between !important;
+	align-items: center;
+}
+
+.seeAll {
+	padding-right: 0;
+	margin-right: 0;
+}
+
+.seeAll a {
+	text-decoration: none;
+	color: #fa2d48;
+}
+
+.bottomBorder {
+	border-bottom: 2px solid rgb(255, 255, 255, 0.25);
+}
+
+.recentlyPlayed {
+	padding-right: 0;
+	margin-right: 0;
+	display: flex;
+	flex-direction: row !important;
+}
+
+.smallCarouselImgContainer {
+	width: 144px;
+	height: 195px;
+}
+
+.smallBgContainerImg {
+	height: 144px !important	;
+	background-repeat: no-repeat;
+	background-size: contain;
+	border-radius: 10px;
+}
+
+.smallCarouselImgContainer p {
+		height: 51px;
+}
+
+.smallCarouselText {
+	max-height: 51px;
+	line-height: 1.2;
+	width: 144px !important;
+	margin: 0;
+	padding: 5px !important;
+	color: white;
+	bottom: 0;
+	font-size: 0.75em;
+}
+
+.smallCarouselText span {
+	color: rgba(235, 235, 245, 0.6);
+}
+
+
+.bgContainerImg8{
+	background-image: url('assets/redJumpsuit.jpg');
+}
+
+.bgContainerImg9{
+	background-image: url('assets/goodSense.jpg');
+}
+
+.bgContainerImg10{
+	background-image: url('assets/kansas.jpg');
+}
+
+.bgContainerImg11{
+	background-image: url('assets/kofiStone.jpg');
+}
+
+.bgContainerImg12{
+	background-image: url('assets/childrenOfInternet.jpg');
+}
+
+.bgContainerImg13{
+	background-image: url('assets/malibu.jpg');
+}
+
+.bgContainerImg14{
+	background-image: url('assets/oxnard.jpeg');
+}
+
+.bgContainerImg15{
+	background-image: url('assets/ventura.png');
+}
+
+.bgContainerImg16{
+	background-image: url('assets/sidelineStory.jpeg');
+}
+
+.bgContainerImg17{
+	background-image: url('assets/kod.jpg');
+}
+
+.bgContainerImg18{
+	background-image: url('assets/dSmoke.jpg');
+}
+
+/*END OF RECENTLY PLAYED STYLING */
