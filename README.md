@@ -1,2 +1,2 @@
 # appleMusicIphoneClone
-Apple Music website clone for mobile experience.
+Apple Music website UI clone for mobile experience.
