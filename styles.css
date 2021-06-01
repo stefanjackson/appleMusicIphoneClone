@@ -607,3 +607,33 @@ h3 {
 .carouselText75 {
 	background-color: darkgrey ;
 }
+
+/* END OF MAIN STYLING / CAROUSEL STYLING */
+
+/* Footer Styling */
+
+#footerRow {
+	background-color: rgb(52, 58, 64, 0.6);
+	font-size: 0.8em;
+	color: rgba(235, 235, 245, 0.6);
+	padding: 35px !important;
+	line-height: 1.8;
+}
+
+#footerRow a {
+	color: white;
+}
+
+#footerList {
+	display: inline-block;
+	padding: 0;
+}
+
+#footerList li {
+	list-style: none;
+	display: inline-block;
+}
+
+.copyrightRow {
+	display: inline-block;
+}
