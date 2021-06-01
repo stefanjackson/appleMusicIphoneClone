@@ -309,3 +309,56 @@ h3 {
 }
 
 /*END OF RECENTLY PLAYED STYLING */
+
+
+
+/* R&B CAROUSEL SECTION */
+
+.bgContainerImg19{
+	background-image: url('assets/tory.jpg');
+}
+
+.bgContainerImg20{
+	background-image: url('assets/malibu.jpg');
+}
+
+.bgContainerImg21{
+	background-image: url('assets/trapsoul.jpeg');
+}
+
+.bgContainerImg22{
+	background-image: url('assets/party-min.jpg');
+	background-size: cover;
+}
+
+.bgContainerImg23{
+	background-image: url('assets/eastAtlanta.jpg');
+}
+
+.bgContainerImg24{
+	background-image: url('assets/futureFunk.jpg');
+}
+
+.bgContainerImg25{
+	background-image: url('assets/forTheNight-min.jpg');
+}
+
+.bgContainerImg26{
+	background-image: url('assets/origin.jpg');
+}
+
+.bgContainerImg27{
+	background-image: url('assets/influences3.jpg');
+}
+
+.bgContainerImg28{
+	background-image: url('assets/indie-min.jpg');
+}
+
+.bgContainerImg29{
+	background-image: url('assets/sunShower.png');
+}
+
+.bgContainerImg30{
+	background-image: url('assets/scribz.jpg');
+}
