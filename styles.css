@@ -168,7 +168,7 @@ h3 {
 }
 
 .bgContainerImg4 {
-	background-image: url('assets/favouritesMix3.jpg');
+	background-image: url('assets/favouritesMix4.jpg');
 }
 
 .carouselText4 {
@@ -394,3 +394,41 @@ h3 {
 .bgContainerImg37{
 	background-image: url('assets/Augustanaband.jpg');
 }
+
+/* END OF MORE LIKE DONT YOU FAKE IT CAROUSEL SECTION */
+
+
+/* START OF MADE FOR YOU BIG CAROUSEL SECTION */
+
+.bgContainerImg38{
+	background-image: url('assets/getUpMix.jpg');
+}
+
+.carouselText38 {
+	 background-color: darkorange;
+}
+
+.bgContainerImg39{
+	background-image: url('assets/favouritesMix4.jpg');
+}
+
+.carouselText39 {
+	background-color: darkorchid;
+}
+
+.bgContainerImg40{
+	background-image: url('assets/chillMix.jpg');
+}
+
+.carouselText40 {
+	background-color: #20b2aa;
+}
+
+.bgContainerImg41{
+	background-image: url('assets/newMusicMix.jpg');
+}
+
+.carouselText41 {
+	background-color: #ed507c;
+}
+
