@@ -15,3 +15,5 @@ If you are using Google Chrome as your browser option:
 ## Please find a demo video of the mobile user experience below.
 
 https://user-images.githubusercontent.com/46360594/125522418-55da3edc-edc6-4da1-bdd4-8151f44405bb.mp4
+
+If unable to view video above please find the demo video on youtube at this link: https://www.youtube.com/watch?v=nwc72ruwTRk
