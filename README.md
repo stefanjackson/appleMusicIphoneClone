@@ -11,3 +11,5 @@ If you are using Google Chrome as your browser option:
 - click that icon with the two devices
 - a bar should now pop up at the top of your view port and there should be a little drop down menu that once clicked will reveal a list of  devices you can view the site through
 - click on any of the mobile device options
+
+https://user-images.githubusercontent.com/46360594/125522418-55da3edc-edc6-4da1-bdd4-8151f44405bb.mp4
